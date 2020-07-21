@@ -25,3 +25,6 @@ The following websites were referenced for the completion of this project.
 3. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html?highlight=mean#pandas.DataFrame.mean
 
 4. https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.max.html
+
+### Additional comments added - Limited months available.
+Data files are limited to just Jan - June. Therefore, user can only input 1-6 for months.  Else, the user will receive error message.
