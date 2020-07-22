@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+7#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  8 20:33:13 2020
@@ -296,8 +296,9 @@ def main():
         view_raw_data(wrk_df)
 
         #Does user wish to restart the program
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        #Removed lower() function from restart variable
+        restart = input('\nWould you like to restart? Enter (1) yes or (2) no.\n')
+        if restart != 2:
             break
 # Simple primary code
 main()
