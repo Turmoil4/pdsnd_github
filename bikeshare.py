@@ -299,6 +299,7 @@ def main():
         view_raw_data(wrk_df)
 
         #Does user wish to restart the program
+        #Removed lower() function from restart variable
         restart = input('\nWould you like to restart? Enter (1) yes or (2) no.\n')
         if restart != 2:
             break
